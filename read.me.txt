@@ -1,0 +1,27 @@
+﻿GitHub = repositório remoto
+
+
+
+
+Repositório
+	Armazena o projeto e histórico
+	
+
+Commit
+	Salva mudanças no projeto com uma descrição
+	
+
+Fetch
+	Busca atualizações do remoto, sem aplicar
+	
+
+Pull
+	Busca e aplica atualizações do remoto
+	
+
+Push
+	Envia suas mudanças para o GitHub
+	
+
+Público
+	Repositório visível para todos na internet
