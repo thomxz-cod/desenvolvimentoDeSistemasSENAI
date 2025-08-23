@@ -3,7 +3,9 @@ var multa = pesoE
 
 if (multa>=50){
     multa = pesoE - 50
-} 
+} else {
+    multa = multa - multa
+}
 
 
 if ( pesoE>=50 & multa >= 1 ) {
@@ -15,13 +17,16 @@ if ( pesoE>=50 & multa >= 1 ) {
     multa = multa.toLocaleString('pt-br', {style:'currency', currency:'BRL'})
     alert(`O valor da multa é ${multa}.`)
 } else if ( multa<1 & multa>0 ) {
-    
+    multa = 0
+    multa = multa.toLocaleString('pt-br', {style:'currency', currency:'BRL'})
     alert(`
         Passou mas nao deu mais de 1kg.
-        Multa = 0 reais.`)
+        Multa = ${multa}`)
     
 } else {
+    multa = 0
+    multa = multa.toLocaleString('pt-br', {style:'currency', currency:'BRL'})
     alert(`
         Não passou do peso.
-        Multa = 0 reais.`)
+        Multa = ${multa}`)
 }
