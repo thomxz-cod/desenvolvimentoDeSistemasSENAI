@@ -1,4 +1,4 @@
-var click = document.addEventListener('click', clicar)
+var click = num1.addEventListener('click', clicar)
 
 function clicar() {
     let num = document.getElementById('num')
