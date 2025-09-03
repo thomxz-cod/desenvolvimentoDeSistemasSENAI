@@ -1,0 +1,14 @@
+body{
+    background: wheat;
+}
+h1{
+    font-size: 50px;
+    color: rgb(69, 5, 129);
+}
+h2{
+    font-size: 40px;
+}
+p{
+    font-size: 14px;
+    color: rgb(68, 7, 126);
+}
