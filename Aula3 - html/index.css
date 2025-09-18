@@ -10,9 +10,10 @@ body{
     color: rgb(255, 255, 255);
 }
 
+/*                  header                 */
+
 header{
     width: 100%;
-    padding: 10px;
     background-color: rgb(73, 73, 73);
     display: flex;
     align-items: center;
@@ -20,19 +21,24 @@ header{
     
 }
 header img{
-    width: 100px;
-    padding: 0px 20px;
+    width: 65px;
+    margin: 0px 20px;
 }
 header a{
     color: rgb(255, 255, 255);
+    margin: 0px 20px;
 }
+
+/*                    main                 */
 
 main{
     width: 100%;
     display: flex;
     justify-content: center;
 }
-
+main img{
+    width: 80px;
+}
 .pai{
     width: 600px;
     height: 400px;
@@ -46,7 +52,6 @@ main{
     display: flex;
     flex-wrap: wrap;
 }
-
 .caixa{
     color: black;
     margin: 10px;
