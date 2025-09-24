@@ -1,0 +1,84 @@
+:root{
+    --textoHeader: white;
+    --corPrimariaHeader: rgba(0, 0, 0, 0.705);
+    --corSecundariaHeader: rgba(179, 32, 32, 0.459);
+}
+
+*{
+    margin: 0%;
+    padding: 0%;
+
+}
+body{
+    background-color: rgb(165, 32, 32);
+    color: azure;
+}
+
+
+/*                     header                   */
+
+
+header{
+    width: 100%;
+    padding: 10px 0px;
+    align-items: center;
+    background-color: var(--corPrimariaHeader);
+    color: var(--textoHeader);
+    display: flex;
+    justify-content: space-around;
+}
+
+.pagAtual{
+    padding: 4px;
+    background-color: var(--corSecundariaHeader);
+}
+
+header img{
+    width: 65px;
+}
+
+header a{
+    text-decoration: none;
+    color: var(--textoHeader);
+    padding: 0px 20px;
+}
+
+
+
+
+
+
+
+
+/*                  main                 */
+
+main{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+/*                  footer               */
+
+footer{
+    background-color: var(--corPrimariaHeader);  /* Cor igual a do header */
+    display: flex;
+    width: 100%;
+    justify-content: end;
+    padding: 6px 0px;
+    bottom: 0%;
+    position: absolute;
+}
+footer h4{
+    padding: 0px 20px;
+}

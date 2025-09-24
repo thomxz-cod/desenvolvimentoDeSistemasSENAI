@@ -1,0 +1,16 @@
+#banner{
+    width: 60%;
+    height: 300px;
+    border-radius: 10px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    background-image: url(../imagens/banner.jpg);
+    background-position: right;
+}
+#txtbanner{
+    background-color: var(--corSecundariaHeader);
+    color: var(--textoHeader);
+    padding: 10px;
+}
