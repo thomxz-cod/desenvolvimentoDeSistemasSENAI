@@ -1,0 +1,95 @@
+:root{
+    --txtCor: white;
+}
+
+*{
+    margin: 1px;
+    padding: 0%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+body{
+    background-color: black;
+    color: var(--txtCor);
+}
+
+
+
+/*                header                 */
+
+header{
+    color: var(--txtCor);
+    display: flex;
+    justify-content:space-between;
+    width: 100%;
+}
+header section{
+    display: flex;
+    align-items: center;
+    align-content: center;
+}
+#ladoE{
+    padding: 6px 50px;
+    
+}
+#ladoD{
+    padding: 6px 40px;
+}
+
+#logo{
+    width: 140px;
+}
+a{  
+    padding: 4px;
+    text-decoration: none;
+    color: var(--txtCor);
+}
+
+#icon{
+    width: 65px;
+    padding: 0px 20px;
+}
+
+
+
+/*                 main               */
+
+main{
+    width: 100%;
+}
+#principal{
+    width: 100%;
+    height: 300px;
+    background-size: cover;
+    background-image: url(../images/Filmes/b9d9a6cb0cf523f131b6b153a675ab5956dd63f7.png);
+    background-position: center;
+}
+#txt{
+    padding: 10px;
+    width: 50%;
+}
+#txt h5, #txt h6{
+    padding: 7px 20px;
+}
+#btns{
+    width: 100%;
+    padding: 0px 15px;
+    display: flex;
+}
+#btn1{
+    width: 70px;
+    background-color: rgba(172, 172, 172, 0.377);
+}
+#btn2{
+    width: 130px;
+    background-color: rgba(172, 172, 172, 0.377);
+}
+.btn{
+    color: var(--txtCor);
+    padding: 7px 3px;
+    margin: 0px 10px;
+    border-radius: 3px;
+}
+#fila{
+    width: 100%;
+}
