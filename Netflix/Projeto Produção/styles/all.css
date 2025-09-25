@@ -5,7 +5,6 @@
 *{
     margin: 1px;
     padding: 0%;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 body{
@@ -57,12 +56,14 @@ a{
 main{
     width: 100%;
 }
+
+
 #principal{
     width: 100%;
     height: 300px;
     background-size: cover;
     background-image: url(../images/Filmes/b9d9a6cb0cf523f131b6b153a675ab5956dd63f7.png);
-    background-position: center;
+    background-position:top;
 }
 #txt{
     padding: 10px;
@@ -72,17 +73,16 @@ main{
     padding: 7px 20px;
 }
 #btns{
-    width: 100%;
     padding: 0px 15px;
     display: flex;
 }
 #btn1{
     width: 70px;
-    background-color: rgba(172, 172, 172, 0.377);
+    background-color: #acacac60;
 }
 #btn2{
     width: 130px;
-    background-color: rgba(172, 172, 172, 0.377);
+    background-color: #acacac60;
 }
 .btn{
     color: var(--txtCor);
@@ -90,6 +90,52 @@ main{
     margin: 0px 10px;
     border-radius: 3px;
 }
-#fila{
+
+
+
+#fileira{
+    display: flex;
     width: 100%;
+}
+
+.images{
+    width: 25%;
+    height: 100px;
+    background-position:right;
+}
+
+#img1{
+    background-size: cover;
+    background-image: url(../images/Filmes/1cb27a06e8fdc5f8dfd3a69921769cd66b8f3131.png);
+}
+#img2{
+    background-size: cover;
+    background-image: url(../images/Filmes/a36e70d6c29ad878a0d5a326275caaac686e0ab2.png);
+}
+#img3{
+    background-size: cover;
+    background-image: url(../images/Filmes/fea7743f8847095dd0fb87c07acdac75022968ce.png);
+    
+}
+#img4{
+    background-size: cover;
+    background-image: url(../images/Filmes/a79531694f0e0da51e7511a0be38ae92f6993244.png);
+}
+
+#img5{
+    background-size: cover;
+    background-image: url(../images/Filmes/b9d9a6cb0cf523f131b6b153a675ab5956dd63f7.png);
+}
+#img6{
+    background-size: cover;
+    background-image: url(../images/Filmes/fea7743f8847095dd0fb87c07acdac75022968ce.png);
+}
+#img7{
+    background-size: cover;
+    background-image: url(../images/Filmes/1cb27a06e8fdc5f8dfd3a69921769cd66b8f3131.png);
+    
+}
+#img8{
+    background-size: cover;
+    background-image: url(../images/Filmes/a36e70d6c29ad878a0d5a326275caaac686e0ab2.png);
 }
