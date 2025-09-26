@@ -1,21 +1,16 @@
-:root{
-    --txtCor: white;
-}
-
 *{
-    margin: 1px;
+    margin: 0%;
     padding: 0%;
+    color: white;
 }
 
 body{
     background-color: black;
-    color: var(--txtCor);
 }
 
 
 
 /*                header                 */
-
 header{
     color: var(--txtCor);
     display: flex;
@@ -32,7 +27,7 @@ header section{
     
 }
 #ladoD{
-    padding: 6px 40px;
+    padding: 6px 30px;
 }
 
 #logo{
@@ -41,7 +36,6 @@ header section{
 a{  
     padding: 4px;
     text-decoration: none;
-    color: var(--txtCor);
 }
 
 #icon{
@@ -58,15 +52,17 @@ main{
 }
 
 
-#principal{
+.banner{
     width: 100%;
     height: 300px;
     background-size: cover;
-    background-image: url(../images/Filmes/b9d9a6cb0cf523f131b6b153a675ab5956dd63f7.png);
-    background-position:top;
+    
+}
+#principal{
+    background-image: url(../images/Filmes/banner/b9d9a6cb0cf523f131b6b153a675ab5956dd63f7.png);
 }
 #txt{
-    padding: 10px;
+    padding: 10px 40px;
     width: 50%;
 }
 #txt h5, #txt h6{
@@ -78,64 +74,57 @@ main{
 }
 #btn1{
     width: 70px;
-    background-color: #acacac60;
 }
 #btn2{
     width: 130px;
-    background-color: #acacac60;
 }
 .btn{
-    color: var(--txtCor);
     padding: 7px 3px;
     margin: 0px 10px;
     border-radius: 3px;
+    background-color: #acacac60;
 }
 
 
 
-#fileira{
+.fileira{
     display: flex;
-    width: 100%;
 }
-
-.images{
+#fila h4{
+    margin: 5px 20px;
+}
+.img{
+    background-size: cover;
     width: 25%;
-    height: 100px;
-    background-position:right;
+    margin: 5px;
+    height: 130px;
 }
+#img1{background-image: url(../images/Filmes/imgs/06c40b3d2f8ca3068a0f6bcc6e45da866ddc78b4.png);}
+#img2{background-image: url(../images/Filmes/imgs/179fb090ac07b0f28fbba7414c8b3c1434f93a6c.png);}
+#img3{background-image: url(../images/Filmes/imgs/1cb27a06e8fdc5f8dfd3a69921769cd66b8f3131.png);}
+#img4{background-image: url(../images/Filmes/imgs/21f90322b52e6d098fc15badb50bc810617f10b7.png);}
+#img5{background-image: url(../images/Filmes/imgs/3228a07e7432f929c11d93d7fc4a2fc3cd6c5b9c.png);}
+#img6{background-image: url(../images/Filmes/imgs/364e68fdcdc74e0a7e3d0a9b079edfb5967d2a6d.png);}
+#img7{background-image: url(../images/Filmes/imgs/437bc48be6cb6162426f5914d89f1e7d4bd8613f.png);}
+#img8{background-image: url(../images/Filmes/imgs/77b0331cffde3debb1eb3f3cc4f1bf7f160a0fad.png);}
+#img9{background-image: url(../images/Filmes/imgs/858fd2135a3b5b5adaedd22ad1a3c6351a294a47.png);}
+#img10{background-image: url(../images/Filmes/imgs/8cddc2ad9750465a99a0e6311e4f62fce3bdade3.png);}
+#img11{background-image: url(../images/Filmes/imgs/a36e70d6c29ad878a0d5a326275caaac686e0ab2.png);}
+#img12{background-image: url(../images/Filmes/imgs/a79531694f0e0da51e7511a0be38ae92f6993244.png);}
+#img13{background-image: url(../images/Filmes/imgs/b2a6b05ca23aa389c22678c27fabfbba97d25882.png);}
+#img14{background-image: url(../images/Filmes/imgs/c0825df3817d77c5c18f9f193398d34326522907.png);}
+#img15{background-image: url(../images/Filmes/imgs/c15fe6bf956453e6eda11f7849c1e8b3ce16851e.png);}
+#img16{background-image: url(../images/Filmes/imgs/d36767b62cbf3336399b5fe3ccffc2e1243fc2bc.png);}
+#img17{background-image: url(../images/Filmes/imgs/d572a53bf50eeddf640172635645bf736f37a1e4.png);}
+#img18{background-image: url(../images/Filmes/imgs/e72019e650d70a2fde131d7bdb38be7884a6cd50.png);}
+#img19{background-image: url(../images/Filmes/imgs/f963a8edbb56480b8137a1cc29741e3d9ee33d3c.png);}
+#img20{background-image: url(../images/Filmes/imgs/fea7743f8847095dd0fb87c07acdac75022968ce.png);}
 
-#img1{
-    background-size: cover;
-    background-image: url(../images/Filmes/1cb27a06e8fdc5f8dfd3a69921769cd66b8f3131.png);
-}
-#img2{
-    background-size: cover;
-    background-image: url(../images/Filmes/a36e70d6c29ad878a0d5a326275caaac686e0ab2.png);
-}
-#img3{
-    background-size: cover;
-    background-image: url(../images/Filmes/fea7743f8847095dd0fb87c07acdac75022968ce.png);
+
+
+#final{
+    background-image: url(../images/Filmes/banner/246e4c20e2539af37de4a14a3f6cbd45d829cc99.png);
     
 }
-#img4{
-    background-size: cover;
-    background-image: url(../images/Filmes/a79531694f0e0da51e7511a0be38ae92f6993244.png);
-}
 
-#img5{
-    background-size: cover;
-    background-image: url(../images/Filmes/b9d9a6cb0cf523f131b6b153a675ab5956dd63f7.png);
-}
-#img6{
-    background-size: cover;
-    background-image: url(../images/Filmes/fea7743f8847095dd0fb87c07acdac75022968ce.png);
-}
-#img7{
-    background-size: cover;
-    background-image: url(../images/Filmes/1cb27a06e8fdc5f8dfd3a69921769cd66b8f3131.png);
-    
-}
-#img8{
-    background-size: cover;
-    background-image: url(../images/Filmes/a36e70d6c29ad878a0d5a326275caaac686e0ab2.png);
-}
+
