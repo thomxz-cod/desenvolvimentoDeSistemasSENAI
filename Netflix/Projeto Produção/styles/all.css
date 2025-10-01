@@ -8,8 +8,16 @@
 }
 
 body{
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
     background-color: black;
     color: var(--corTXT);
+=======
+=======
+>>>>>>> Stashed changes
+    background-color: rgb(0, 0, 0);
+    color: var(--txtCor);
+>>>>>>> Stashed changes
 }
 
 
@@ -105,6 +113,7 @@ main{
 .img{
     background-size: cover;
     width: 25%;
+<<<<<<< Updated upstream
     margin: 5px;
     height: 130px;
 }
@@ -193,4 +202,35 @@ footer div p{
     font-size: 10px;
     display: flex;
     justify-content: center;
+=======
+    height: 100px;
+    background-position:right;
+    background-size: cover;
+}
+
+#img1{
+    background-image: url(../images/Filmes/1cb27a06e8fdc5f8dfd3a69921769cd66b8f3131.png);
+}
+#img2{
+    background-image: url(../images/Filmes/a36e70d6c29ad878a0d5a326275caaac686e0ab2.png);
+}
+#img3{
+    background-image: url(../images/Filmes/fea7743f8847095dd0fb87c07acdac75022968ce.png);
+}
+#img4{
+    background-image: url(../images/Filmes/a79531694f0e0da51e7511a0be38ae92f6993244.png);
+}
+#img5{
+    background-image: url(../images/Filmes/b9d9a6cb0cf523f131b6b153a675ab5956dd63f7.png);
+}
+#img6{
+    background-image: url(../images/Filmes/fea7743f8847095dd0fb87c07acdac75022968ce.png);
+}
+#img7{
+    background-image: url(../images/Filmes/1cb27a06e8fdc5f8dfd3a69921769cd66b8f3131.png);
+    
+}
+#img8{
+    background-image: url(../images/Filmes/a36e70d6c29ad878a0d5a326275caaac686e0ab2.png);
+>>>>>>> Stashed changes
 }
