@@ -49,6 +49,10 @@ header{
     color: white;
 }
 
+#conteudo div{
+    justify-items: center;
+}
+
 .void{
     background-image: url(../imgs/void\ img.png);
     background-size: cover;
