@@ -8,16 +8,10 @@
 }
 
 body{
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
     background-color: black;
     color: var(--corTXT);
-=======
-=======
->>>>>>> Stashed changes
     background-color: rgb(0, 0, 0);
     color: var(--txtCor);
->>>>>>> Stashed changes
 }
 
 
@@ -113,7 +107,6 @@ main{
 .img{
     background-size: cover;
     width: 25%;
-<<<<<<< Updated upstream
     margin: 5px;
     height: 130px;
 }
@@ -202,7 +195,6 @@ footer div p{
     font-size: 10px;
     display: flex;
     justify-content: center;
-=======
     height: 100px;
     background-position:right;
     background-size: cover;
@@ -232,5 +224,4 @@ footer div p{
 }
 #img8{
     background-image: url(../images/Filmes/a36e70d6c29ad878a0d5a326275caaac686e0ab2.png);
->>>>>>> Stashed changes
 }
