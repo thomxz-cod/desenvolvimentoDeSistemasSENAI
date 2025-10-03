@@ -1,0 +1,47 @@
+
+#inicio{
+    width: 100%;
+    background-color: rgb(221, 222, 221);
+    display: flex;
+    border: 1px solid black;
+    margin-bottom: 10px;
+}
+
+#ladoE{
+    padding-left: 30px;
+    display: flex;
+    width: 80%;
+}
+#ladoE div{
+    width: 50%;
+    text-align: center;
+}
+#ladoD{
+    padding-left: 15px;
+    border-left: 1px solid black;
+    width: 20%;
+}
+
+
+
+
+.tabela{
+    padding: 3px;
+    border: 1px solid black;
+    margin-bottom: 10px;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid black;
+    background-color: rgb(246, 252, 250);
+}
+#materiais td{
+    text-align: center;
+    justify-items: center;
+}
+    
+th, td{
+    border: 1px solid black;
+    padding: 4px 10px;
+}
