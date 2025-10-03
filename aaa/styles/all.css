@@ -4,18 +4,21 @@
 }
 
 body{
+    width: 100%;
     background-color: rgb(209, 245, 204);
+    justify-items: center;
 }
 
 header{
+    width: 100%;
     background-color: rgb(241, 230, 146);
     display: flex;
-    justify-content:space-evenly;
+    justify-content:space-around;
     align-items: center;
 }
 
 main{
-    background-color: rgb(243, 240, 171);
-    width: 100%;
-    padding: 10px;
+    margin-top: 10px;
+    background-color: rgb(217, 217, 217);
+    width: 80%;
 }
