@@ -1,0 +1,60 @@
+:root{
+    --corPrimaria: rgb(194, 72, 72);
+    --branco: rgb(243, 243, 243);
+}
+
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+body{
+    background-color: var(--branco);
+}
+
+
+
+/*                             header                           */
+
+
+header{
+    width: 100%;
+    padding: 40px 0px;
+    background-color: var(--corPrimaria);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#logoImg{
+    width: 50px;
+}
+
+header a{
+    text-decoration: none;
+    color: var(--branco);
+}
+
+nav, #logo{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.pagInicial{
+    padding: 7px;
+    border-radius: 10px;
+    background-color: var(--branco);
+    color: black;
+}
+
+/*                              main                            */
+
+
+main{
+    width: 90%;
+    border-radius: 10px;
+    margin: 10px auto;
+    padding: 40px;
+    box-shadow: 10px 6px 20px var(--corPrimaria);
+}
