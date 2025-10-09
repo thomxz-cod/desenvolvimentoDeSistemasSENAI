@@ -20,6 +20,7 @@ body{
 header{
     width: 100%;
     padding: 40px 0px;
+    margin-bottom: 20px;
     background-color: var(--corPrimaria);
     display: flex;
     justify-content: space-around;
