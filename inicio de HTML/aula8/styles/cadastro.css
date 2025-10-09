@@ -7,9 +7,28 @@ body{
 }
 
 main{
+    padding: 0px;
     display: flex;
+    border-radius: 20px;
+    box-shadow: 8px 8px 30px rgb(139, 138, 138);
 }
 
 #bannerCadastro{
-    
+    border-radius: 20px 0px 0px 20px;
+    width: 50%;
+    display: flex;
+    justify-content: center;
 }
+
+#formularioCadastro{
+    border-radius: 0px 20px 20px 0px;
+    width: 50%;
+    padding: 10px;
+    background-color: var(--corPrimaria);
+}
+
+.inputLabel input{
+    width: 65%;
+    margin-bottom: 2px;
+}
+
