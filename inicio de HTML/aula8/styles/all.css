@@ -62,12 +62,43 @@ main{
     width: 90%;
     border-radius: 10px;
     margin: 10px auto;
-    padding: 40px;
     box-shadow: 10px 6px 20px var(--corPrimaria);
+    padding: 10px;
 }
 
+#init{
+    display: flex;
+    margin: 10px;
+    height: 500px;
+    gap: 20px;
+}
 
-/*                                 header                           */
+#banner{
+    width: 80%;
+    height: 100%;
+    border-radius: 10px 0px 0px 10px;
+}
+
+#jogos{
+    width: 20%;
+    height: 100%;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+#jogos div{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+}
+
+#jogos div h1{
+    font-size: 20px;
+}
+
+/*                            header                           */
 
 
 footer{
@@ -82,6 +113,9 @@ footer{
 footer div{
     font-size: 15px;
     margin: 10px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
 }
 
 footer a{
