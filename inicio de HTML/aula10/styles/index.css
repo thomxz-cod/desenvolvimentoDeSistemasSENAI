@@ -1,0 +1,32 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    color: rgb(235, 229, 229);
+    text-decoration: none;
+}
+
+:root{
+    --primaria: rgb(136, 25, 10);
+}
+
+body{
+    background-color: rgb(66, 28, 28);
+}
+
+header{
+    background-color: var(--primaria);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 0px;
+}
+
+#menuPc{
+    font-size: 30px;
+    display: flex;
+    gap: 10px;
+}
+#menuMobile{
+    display: none;
+}
+
