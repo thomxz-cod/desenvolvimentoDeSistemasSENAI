@@ -1,7 +1,6 @@
 function menu() {
 
     const menuClickMobile = document.getElementById('menuClickMobile');
-    const menuMobile = document.getElementById('menuMobile');
 
     const currentDisplay = window.getComputedStyle(menuClickMobile).display;
 
