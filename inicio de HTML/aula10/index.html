@@ -4,26 +4,39 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Server th</title>
+
+    <!--  CSS  -->
     <link rel="stylesheet" href="styles/index.css">
     <link rel="stylesheet" href="styles/mediaMobile.css" media="screen and (max-width: 500px)">
+
+    <!--  JS   -->
+    <script src="scripts/index.js"></script>
 </head>
 <body>
     <header>
-        <div>
-            <img width="65px" src="imgs/icons/transportation.svg" alt="">
+        <div id="headerDiv">
+            <div>
+                <img width="35px" src="imgs/icons/transportation.svg" alt="">
+            </div>
+            <nav id="menuPc">
+                <a href="index.html">HOME</a>
+                <a href="#">Contato</a>
+                <a href="#">Quem Somos</a>
+                <a href="#">Serviços</a>
+                <a href="#">Filiais</a>
+            </nav>
+            <nav id="menuMobile" onclick="menu()">
+                <img src="imgs/icons/menu.svg" alt="">
+            </nav>
         </div>
-        <nav id="menuPc">
+        <nav id="menuClickMobile">
             <a href="index.html">HOME</a>
             <a href="#">Contato</a>
             <a href="#">Quem Somos</a>
             <a href="#">Serviços</a>
             <a href="#">Filiais</a>
         </nav>
-        <nav id="menuMobile">
-            <img src="imgs/icons/menu.svg" alt="">
-        </nav>
     </header>
 
-    
 </body>
 </html>

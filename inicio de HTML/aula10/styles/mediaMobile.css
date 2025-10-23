@@ -1,6 +1,7 @@
-#menuPc{
-    display: none;
-}
 #menuMobile{
     display: flex;
+}
+
+#menuPc{
+    display: none;
 }

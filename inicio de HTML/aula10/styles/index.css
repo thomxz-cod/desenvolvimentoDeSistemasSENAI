@@ -6,27 +6,33 @@
 }
 
 :root{
-    --primaria: rgb(136, 25, 10);
+    --corBody: rgb(0, 0, 0);
+    --corHeader: rgba(99, 12, 12, 0.842);
 }
 
 body{
-    background-color: rgb(66, 28, 28);
+    background-color: var(--corBody);
 }
 
 header{
-    background-color: var(--primaria);
+    background-color: var(--corHeader);
+    width: 100%;
+
+    padding: 10px 0px;
+}
+#headerDiv{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 10px 0px;
 }
 
 #menuPc{
-    font-size: 30px;
-    display: flex;
-    gap: 10px;
-}
-#menuMobile{
-    display: none;
+    font-size: 20px;
 }
 
+#menuMobile, #menuClickMobile{
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    font-size: 15px;
+}
