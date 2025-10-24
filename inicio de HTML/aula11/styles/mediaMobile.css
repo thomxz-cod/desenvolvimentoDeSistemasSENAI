@@ -14,6 +14,12 @@
     width: 90%;
     font-size: 12px;
 }
+#imgPc{
+    display: none;
+}
+#imgMobile{
+    display: flex;
+}
 #text{
     width: 100%;
     justify-content: center;

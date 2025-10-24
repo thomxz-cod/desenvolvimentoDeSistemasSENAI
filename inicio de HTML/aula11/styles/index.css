@@ -35,12 +35,13 @@ header section{
 #ladoD{
     width: 50%;
     display: flex;
+    justify-content: center;
 }
 #navDMobile{
     display: none;
     align-items: end;
     flex-direction: column;
-    margin-right: 40px;
+    margin: 5px 40px 40px 0px;
 }
 #button{
     width: 25px;
@@ -56,7 +57,7 @@ nav a{
     text-decoration: none;
     color: var(--corBody);
     padding-right: 5px;
-    font-size: 8px;
+    font-size: 10px;
 }
 
 
@@ -91,6 +92,9 @@ main{
     align-items: center;
     text-align: center;
     margin-bottom: 10px;
+}
+#imgMobile{
+    display: none;
 }
 
 input{
