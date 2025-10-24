@@ -13,13 +13,17 @@
 body{
     background-color: var(--corBody);
 }
-
 header{
+    background-color: var(--corCinza);
+}
+header section{
+    width: 100%;
     background-color: var(--corCinza);
     color: var(--corBody);
     display: flex;
     justify-content: space-around;
     padding: 5px 0px;
+
 }
 
 #ladoE{
@@ -31,6 +35,12 @@ header{
 #ladoD{
     width: 50%;
     display: flex;
+}
+#navDMobile{
+    display: none;
+    align-items: end;
+    flex-direction: column;
+    margin-right: 40px;
 }
 #button{
     width: 25px;
