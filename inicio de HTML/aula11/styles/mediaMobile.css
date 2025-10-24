@@ -1,0 +1,43 @@
+#ladoD{
+    display: none;
+}
+#button{
+    display: flex;
+}
+.titulo{
+    width: 70%;
+    margin: 10px 10px 20px 10px;
+    font-size: 8px;
+}
+
+#poster{
+    width: 90%;
+    font-size: 12px;
+}
+#text{
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    font-size: 12px;
+    text-align: center;
+}
+#text div{
+    width: 90%;
+}
+
+#miniPosters{
+    flex-direction: column;
+    width: 90%;
+}
+.miniPosters h1{
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.miniPosters p{
+     font-size: 14px;
+     margin-bottom: 8px;
+}
+
+input{
+    font-size: 16px;
+}
