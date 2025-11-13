@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsividade</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+</head>
+<body data-bs-theme="light">
+
+
+    <main>
+        <h1>SITE DE TESTE</h1>
+        <button class="btn" onclick="trocarTema()" id="trocarTemaBtn">
+            <img src="imgs/icons/lua.svg" alt="">
+        </button>
+
+        <section class="container-fluid text-center" id="catalago">
+            <h2>PRODUTOS</h2>
+
+            <!--     Produto 1    -->
+            <div class="container d-flex gap-3 p-3 flex-column flex-md-column flex-lg-row">
+                <div class="card" class="w-100 w-sm-100 w-md-100 w-lg-25">
+                    <img src="..." class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+                    </div>
+                </div>
+
+                <!--     Produto 2    -->
+                <div class="card" class="w-100 w-sm-100 w-md-100 w-lg-25">
+                    <img src="..." class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+                    </div>
+                </div>
+
+                <!--     Produto 3    -->
+                <div class="card" class="w-100 w-sm-100 w-md-100 w-lg-25">
+                    <img src="..." class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+                    </div>
+                </div>
+
+                <!--     Produto 4    -->
+                <div class="card" class="w-100 w-sm-100 w-md-100 w-lg-25">
+                    <img src="..." class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+                    </div>
+                </div>
+
+                <!--     Produto 5    -->
+                <div class="card" class="w-100 w-sm-100 w-md-100 w-lg-25">
+                    <img src="..." class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+                    </div>
+                </div>
+
+                <!--     Produto 6    -->
+                <div class="card" class="w-100 w-sm-100 w-md-100 w-lg-25">
+                    <img src="..." class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+        <div id="banner" class="carousel slide carousel-fade">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="imgs/bannerMobile/bannerMobile1.jpg" class="d-block d-md-none d-lg-none w-100" alt="...">
+                <img src="imgs/bannerPc/bannerPc1.jpg" class="d-none d-md-none d-lg-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="imgs/bannerMobile/bannerMobile2.jpg" class="d-block d-md-none d-lg-none w-100" alt="...">
+                <img src="imgs/bannerPc/bannerPc2.jpg" class="d-none d-md-none d-lg-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="imgs/bannerMobile/bannerMobile3.jpg" class="d-block d-md-none d-lg-none w-100" alt="...">
+                <img src="imgs/bannerPc/bannerPc3.jpg" class="d-none d-md-none d-lg-block w-100" alt="...">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#banner" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#banner" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+        </div>
+    </main>
+
+    
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    <script src="scripts/script.js"></script>
+</body>
+</html>
