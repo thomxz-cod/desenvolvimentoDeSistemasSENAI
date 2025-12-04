@@ -1,0 +1,16 @@
+CREATE DATABASE IF NOT EXISTS LojaVirtual;
+USE LojaVirtual;
+
+
+Drop TABLE cliente;
+
+
+
+CREATE TABLE IF NOT EXISTS cliente (
+	idCliente INT NOT NULL AUTO_INCREMENT,
+	nome VARCHAR(100) NOT NULL,
+    email VARCHAR(120) UNIQUE NOT NULL,
+    dataCadastro DATE NOT NULL,
+    
+    PRIMARY KEY (idCliente)
+)DEFAULT CHARSET = utf8;
