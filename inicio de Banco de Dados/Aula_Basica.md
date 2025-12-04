@@ -135,3 +135,153 @@ Comece treinando em:
 - pgAdmin
 - SQLite Browser
 - Plataformas online como SQLFiddle e DB Fiddle
+
+
+# 🔑 Chaves em Banco de Dados — Explicação Completa
+
+Chaves (keys) são campos usados para identificar registros e criar relacionamentos entre tabelas dentro de um banco de dados relacional.
+
+Existem vários tipos de chaves, cada uma com uma função específica.
+Vamos ver cada uma com exemplos claros.
+
+## 1️⃣ Chave Primária (PRIMARY KEY)
+✔ O que é?
+
+É um campo (ou conjunto de campos) que identifica unicamente cada registro da tabela.
+
+✔ Regras:
+
+Não pode repetir valores (única)
+
+Não pode ser nula (NOT NULL)
+
+✔ Exemplo:
+```sql
+CREATE TABLE clientes (
+    id INT PRIMARY KEY,
+    nome VARCHAR(100)
+);
+```
+
+
+Aqui, id identifica cada cliente de forma única.
+
+## 2️⃣ Chave Estrangeira (FOREIGN KEY)
+### ✔ O que é?
+
+É um campo que liga uma tabela a outra.
+Ele aponta para a chave primária de outra tabela.
+
+### ✔ Para que serve?
+
+Criar relacionamentos
+
+Garantir integridade referencial
+(não deixar registrar pedidos para um cliente que não existe, por exemplo)
+
+### ✔ Exemplo:
+```sql
+CREATE TABLE pedidos (
+    id_pedido INT PRIMARY KEY,
+    id_cliente INT,
+    FOREIGN KEY (id_cliente) REFERENCES clientes(id)
+);
+```
+
+
+Aqui, id_cliente na tabela pedidos deve existir na tabela clientes.
+
+## 3️⃣ Chave Candidata (Candidate Key)
+### ✔ O que é?
+
+São todos os campos que poderiam ser uma chave primária, pois são únicos.
+
+A tabela pode ter várias chaves candidatas, mas só uma vira a PRIMARY KEY.
+
+### ✔ Exemplo:
+
+Em uma tabela de funcionários:
+
+cpf (único)
+
+matrícula (única)
+
+Ambos poderiam ser chave primária → são candidatos.
+
+## 4️⃣ Chave Alternativa (Alternate Key)
+### ✔ O que é?
+
+É um campo que é chave candidata, mas não foi escolhido como chave primária.
+
+### ✔ Exemplo:
+
+Se você escolher matrícula como PRIMARY KEY,
+então cpf vira uma chave alternativa.
+
+## 5️⃣ Chave Composta (Composite Key)
+### ✔ O que é?
+
+Uma chave primária formada por duas ou mais colunas juntas.
+
+Usada quando nenhuma coluna sozinha identifica o registro.
+
+### ✔ Exemplo:
+
+Uma tabela que registra produtos de um pedido:
+```sql
+CREATE TABLE pedido_itens (
+    id_pedido INT,
+    id_produto INT,
+    quantidade INT,
+    PRIMARY KEY (id_pedido, id_produto)
+);
+```
+
+
+Aqui:
+
+Não pode haver dois produtos iguais no mesmo pedido
+
+Mas o mesmo produto pode estar em outro pedido
+
+## 6️⃣ Chave Surrogada (Surrogate Key)
+### ✔ O que é?
+
+É uma chave artificial, normalmente um número gerado automaticamente.
+
+Ex.: id autoincremento.
+
+### ✔ Por que usar?
+
+Performance melhor
+
+Simples de manter
+
+Evita usar chaves naturais longas (ex.: CPF)
+
+### ✔ Exemplo:
+```sql
+id SERIAL PRIMARY KEY
+```
+
+## 7️⃣ Chave Natural (Natural Key)
+### ✔ O que é?
+
+É uma chave baseada em dados reais e significativos.
+
+Ex.: CPF, CNPJ, número de série.
+
+### ✔ Problema:
+
+Se ela muda na vida real → quebraria o banco. Por isso muitas vezes preferimos surrogate keys.
+
+🧩 Resumo Visual
+| Tipo de chave     | Para que serve?         | Exemplo                  |
+|-------------------|-------------------------|------------------------  |
+| Primary Key       | Identificar registro    | id_cliente               |
+| Foreign Key       | Relacionar tabelas      | id_cliente → clientes.id |
+| Candidate Key     | Possível PK             | cpf, matrícula           |
+| Alternate Key     | Candidato não escolhido | cpf                      |
+| Composite Key     | PK com várias colunas   | (id_pedido, id_produto)  |
+| Surrogate Key     | PK artificial           | id autoincrement         |
+| Natural Key       | PK com dados reais      | CPF                      |
