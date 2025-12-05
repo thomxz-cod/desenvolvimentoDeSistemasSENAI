@@ -1,10 +1,10 @@
 # Primeiros codigos de banco de dados:
 
 ```sql
-    -- Cria uma banco de dados:
+    -- Cria um banco de dados:
     CREATE DATABASE IF NOT EXISTS lojinha;
 
-    -- Usa a tabela criada:
+    -- Usa o banco de dados criado:
     USE lojinha;
 
     -- Cria tabelas no banco de dados
